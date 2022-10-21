@@ -1,7 +1,6 @@
 import React from 'react'
 import { View, TouchableOpacity, Text } from 'react-native'
 import Style from './HomeScreenStyle'
-// import * as NavigationService from 'Services/NavigationService'
 
 export default function HomeScreen(props) {
   return (
