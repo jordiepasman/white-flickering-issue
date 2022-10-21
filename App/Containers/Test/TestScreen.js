@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-color-literals */
 import React from 'react'
 import { ScrollView, View, Text } from 'react-native'
 

@@ -1,6 +1,7 @@
+/* eslint-disable react-native/no-inline-styles */
 import React from 'react'
 import { ScrollView, View, Text, Image } from 'react-native'
-import Style from './TestWhiteStyle'
+import { Colors } from '../../Theme'
 
 export default function TestWhite(props) {
   return (
@@ -16,8 +17,20 @@ export default function TestWhite(props) {
         <Text style={{ fontSize: 18 }} numberOfLines={2}>
           What is Lorem Ipsum?
         </Text>
-        <View style={Style.information}>
-          <Text style={Style.informationItem}></Text>
+        <View
+          style={{
+            alignItems: 'center',
+            flexDirection: 'row',
+            marginTop: 10,
+          }}
+        >
+          <Text
+            style={{
+              bottom: 0,
+              color: Colors.icon,
+              textTransform: 'uppercase',
+            }}
+          ></Text>
         </View>
       </View>
     </ScrollView>
